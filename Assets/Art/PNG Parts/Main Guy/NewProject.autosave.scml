@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1" pixel_mode="1">
+    <folder id="0">
+        <file id="0" name="sprite torso.png" width="135" height="169" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="knee to foot.png" width="157" height="160" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="shoulder to elbow.png" width="124" height="98" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="hip to knee.png" width="157" height="52" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="sprite arm right.png" width="124" height="228" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="elbow to hand.png" width="124" height="134" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="sprite right leg.png" width="157" height="216" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="hip to kneeLeft.png" width="157" height="52" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Sprite Head.png" width="165" height="160" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="sprite right leg extended.png" width="192" height="222" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Sailor">
+        <obj_info name="bone_000" type="bone" w="140.018" h="10"/>
+        <obj_info name="bone_001" type="bone" w="92.2289" h="10"/>
+        <obj_info name="bone_002" type="bone" w="97.9355" h="10"/>
+        <obj_info name="bone_003" type="bone" w="50.5403" h="10"/>
+        <obj_info name="bone_004" type="bone" w="138.8" h="10"/>
+        <obj_info name="bone_005" type="bone" w="55.1989" h="10"/>
+        <obj_info name="bone_006" type="bone" w="146" h="10"/>
+        <obj_info name="bone_007" type="bone" w="47.7907" h="10"/>
+        <obj_info name="bone_008" type="bone" w="148.107" h="10"/>
+        <obj_info name="bone_009" type="bone" w="115.689" h="10"/>
+        <obj_info name="bone_010" type="bone" w="55.8326" h="10"/>
+        <obj_info name="bone_011" type="bone" w="136.269" h="10"/>
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="6" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="7" key="0"/>
+                    <bone_ref id="2" parent="1" timeline="8" key="0"/>
+                    <bone_ref id="3" parent="0" timeline="9" key="0"/>
+                    <bone_ref id="4" parent="3" timeline="10" key="0"/>
+                    <bone_ref id="5" parent="0" timeline="11" key="0"/>
+                    <bone_ref id="6" parent="5" timeline="12" key="0"/>
+                    <bone_ref id="7" parent="0" timeline="13" key="0"/>
+                    <bone_ref id="8" parent="0" timeline="16" key="0"/>
+                    <bone_ref id="9" parent="8" timeline="17" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="3" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="5" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" parent="4" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" parent="7" timeline="4" key="0" z_index="4"/>
+                    <object_ref id="5" parent="6" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" parent="8" timeline="14" key="0" z_index="6"/>
+                    <object_ref id="7" parent="9" timeline="15" key="0" z_index="7"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="sprite torso">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="149.236933" y="77.267163" angle="270.90938" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="shoulder to elbow">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="2.061673" y="29.818527" angle="33.340707" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="hip to knee">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="2.603382" y="-5.533305" pivot_x="0.072785" pivot_y="0.764151" angle="49.899092" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="elbow to hand">
+                <key id="0" spin="0">
+                    <object folder="0" file="5" x="26.78696" y="-38.172883" angle="70.839827" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="Sprite Head">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="-1.664744" y="-0.080036" pivot_x="0.485609" pivot_y="0.068668" angle="272.752485" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="knee to foot_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="16.644662" y="0.622357" pivot_x="0.335091" pivot_y="0.899586" angle="79.6767" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-12" y="226" angle="89.09062" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="134.427511" y="72.142588" angle="144.72976" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="2" name="bone_002" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="108.827443" y="-5.755941" angle="32.927675" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="3" name="bone_003" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="117.286813" y="-38.143343" angle="237.568673"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="4" name="bone_004" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="56.695996" y="-1.270225" angle="322.50088" scale_x="0.967126"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="5" name="bone_005" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-19.574254" y="-26.980728" angle="221.010288"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="6" name="bone_006" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="56.764463" y="0.134195" angle="330.866965"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="9" name="bone_009" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="161.108453" y="1.446026" angle="358.156895"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="hip to kneeLeft">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="71.910232" y="-121.290611" angle="121.159305" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="knee to foot">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-14.822757" y="-48.11575" angle="80.614482" scale_x="1"/>
+                </key>
+            </timeline>
+            <timeline id="16" obj="10" name="bone_010" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-17.916614" y="8.605618" angle="149.750076"/>
+                </key>
+            </timeline>
+            <timeline id="17" obj="11" name="bone_011" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="63.638156" y="2.122746" angle="35.390315"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
